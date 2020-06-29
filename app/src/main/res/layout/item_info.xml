@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="8dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/item_info_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/n1"
+            android:textSize="20sp"
+            tools:text="перевод" />
+
+        <TextView
+            android:id="@+id/item_info_transcript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/n1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="transcript" />
+
+        <TextView
+            android:id="@+id/item_info_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:maxWidth="320dp"
+            android:textColor="@color/n1_40"
+            android:textSize="14sp"
+            tools:text="transcssdasdasdadasdasdasdasdasdasd asd asdasd asdas  dasdas dasdasdasdasda asd asda sda sdript" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/item_info_exampleRv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

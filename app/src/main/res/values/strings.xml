@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SkyengTest</string>
+
+    <string name="default_search_hint">Введите текст для поиска</string>
+    <string name="default_search">Ищите новые слова</string>
+    <string name="default_search_error">К сожалению ничего не нашлось</string>
+    <string name="search_error">Ой… Что-то пошло не так</string>
+    <string name="alternative">Альтернативные переводы</string>
+</resources>
