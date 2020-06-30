@@ -16,7 +16,7 @@ class MainSingleItem(
 
     override fun bind(viewHolder: GroupieViewHolder, position: Int) = with(viewHolder) {
         Glide.with(itemView.item_single_image)
-            .load(meaningUi?.imageUrl)
+            .load(meaningUi?.previewImageUrl)
             .placeholder(R.drawable.ic_book)
             .into(itemView.item_single_image)
 

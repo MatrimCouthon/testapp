@@ -7,5 +7,6 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class MeaningUi(
     val meaning: Meaning,
+    val previewImageUrl: String,
     val imageUrl: String
 ) : Parcelable
